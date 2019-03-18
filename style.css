@@ -22,7 +22,7 @@ body {
     display: block;
     width: 478px;
     border-radius: 3px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #83d39b;
     padding: 10px;
     font-size: 18px;
   }
@@ -50,7 +50,7 @@ body {
 
   .footer {
     margin-top: 10px;
-    background: #323232;
+    background: #d88383;
     color: #e6e6e6;
     padding: 5px;
     border-bottom-left-radius: 3px;

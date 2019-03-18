@@ -7,4 +7,33 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <script src="main.js"></script>
 </head>
+
+<body>
+    <div class="container">
+        <h1>Groceries List</h1>
+        
+        <form onsubmit="submitProduct(); return false">
+         <input type="text" id="new-product" placeholder="What do i need to buy?">
+        </form>
+
+        <ul id="productlist">
+            <li class="product">
+            <input id="product-1" type="checkbox" onchange="toggleBought.bind(this)();">
+            <label for="product-1">Milk</label>
+            </li>
+        </ul>
+
+    <div class="footer">
+        Products: <span id="product-count">0</span> •
+        Bought: <span id="bought-count">0</span> •
+        Total: <span id="total-count">0</span>
+
+      <!-- link to clean up products that are bought -->
+    <a href="#" onclick="cleanUpBoughtProducts(); return false">Clear Bought products</a>
+    </div>
+
+    </div>    
+
+</body>
+
 </html>

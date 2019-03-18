@@ -13,7 +13,6 @@ function updateCounters() {
     var productCount = document.getElementById('product-count');
     var unboughtProducts = totalProducts - boughtProducts;
     productCount.innerHTML = unboughtProducts;
-updateCounters();
 }
 
 function toggleBought() {

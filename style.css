@@ -27,23 +27,23 @@ body {
     font-size: 18px;
   }
 
-  ul#itemlist {
+  ul#productlist {
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
-  ul#itemlist li {
+  ul#productlist li {
     padding: 5px;
     border: 1px solid #e6e6e6;
     border-radius: 3px;
   }
 
-  ul#itemlist li:hover {
+  ul#productlist li:hover {
     background-color: #e6e6e6;
   }
 
-  ul#itemlist .item.bought label {
+  ul#productlist .item.bought label {
     text-decoration: line-through;
     color: #999;
   }

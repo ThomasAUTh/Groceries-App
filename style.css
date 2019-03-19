@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
+    background-color: #83d39b71;
   }
 
   .container {
@@ -12,6 +13,7 @@ body {
 
   h1 {
     text-align: center;
+    background-color: rgba(165, 42, 42, 0.445);
   }
 
   form {
@@ -22,21 +24,25 @@ body {
     display: block;
     width: 478px;
     border-radius: 3px;
-    border: 1px solid #83d39b;
+    border: 2.5px solid #009b15;
     padding: 10px;
     font-size: 18px;
+    background-color: rgba(83, 83, 83, 0.26);
+   
   }
 
   ul#productlist {
     list-style: none;
     margin: 0;
     padding: 0;
+    border: 2px solid #000000
   }
 
   ul#productlist li {
     padding: 5px;
     border: 1px solid #e6e6e6;
     border-radius: 3px;
+    background-color: white;
   }
 
   ul#productlist li:hover {
@@ -67,3 +73,20 @@ body {
   .footer a:hover {
     text-decoration: underline;
   }
+
+input#quantity {
+  margin: 3px auto;
+  border-color: black;
+  border-width: 0.5px;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+input#product-1 {
+  transform: scale(1.7);
+  margin-right: 2%;
+}

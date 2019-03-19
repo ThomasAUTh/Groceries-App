@@ -62,6 +62,10 @@ updateCounters();
     label.innerHTML = title;
     listItem.appendChild(label);
 
+
+    //i need to add quantity box code here!
+
+
     // add the list item with the checkbox, the whitespace and the label to the list
     var list = document.getElementById("productlist");
     list.appendChild(listItem);

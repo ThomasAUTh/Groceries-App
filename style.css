@@ -49,8 +49,8 @@ body {
     background-color: #e6e6e6;
   }
 
-  ul#productlist .item.bought label {
-    text-decoration: line-through;
+  ul#productlist .product.bought label {
+    text-decoration: line-through red ;
     color: #999;
   }
 

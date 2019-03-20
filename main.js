@@ -52,14 +52,14 @@ updateCounters();
     checkbox.onchange = toggleBought.bind(checkbox);
     listItem.appendChild(checkbox);
 
-    //i need to add quantity box code here!
+    //Created quantity box 
     var quantity = document.createElement("input");
     quantity.type = "number";
     quantity.id = "quantity";
     listItem.appendChild(quantity);
 
     // create some whitespace to put between the checkbox and the label
-    var space = document.createTextNode("  ");
+    var space = document.createTextNode("    ");
     listItem.appendChild(space);
 
     // create a label that holds the title and add it to the list item

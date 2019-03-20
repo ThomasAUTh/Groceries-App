@@ -93,11 +93,11 @@ input[type="checkbox"]{
 textarea {
   resize: none;
   border-color: white;
-  border-width: 0.5px;
   margin: 3px auto;
   width: 350px;
   height: 27px;
   text-align: left;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+  height: 27px;
 }

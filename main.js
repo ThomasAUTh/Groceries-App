@@ -58,22 +58,22 @@ updateCounters();
     quantity.id = "quantity";
     listItem.appendChild(quantity);
 
-    // create some whitespace to put between the checkbox and the label
+    // create some whitespace to put between the checkbox and the textarea
     var space = document.createTextNode("    ");
     listItem.appendChild(space);
 
-    // create a label that holds the title and add it to the list item
-    var label = document.createElement("label");
-    label.htmlFor = checkbox.id;
-    label.innerHTML = title;
-    listItem.appendChild(label);
+    // create a textarea that holds the title and add it to the list item
+    var textarea = document.createElement("textarea");
+    textarea.htmlFor = checkbox.id;
+    textarea.innerHTML = title;
+    listItem.appendChild(textarea);
 
-    // add the list item with the checkbox, the whitespace and the label to the list
+    // add the list item with the checkbox, the whitespace and the textarea to the list
     var list = document.getElementById("productlist");
     list.appendChild(listItem);
   }
 
-// Every product has it's own id so we can add that to the corresponding label's
+// Every product has it's own id so we can add that to the corresponding textarea's
 function nextProductId() {
     return document.getElementsByClassName("product").length + 1;
     }

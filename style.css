@@ -41,8 +41,6 @@ body {
 
   ul#productlist li {
     padding: 5px;
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
     background-color: transparent;
   }
 
@@ -76,6 +74,7 @@ body {
   }
 
 input#quantity {
+  padding: 1px;
   margin: 3px auto;
   border-color: black;
   border-width: 0.5px;
@@ -85,6 +84,7 @@ input#quantity {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
+  font-weight: bold;
 }
 
 input[type="checkbox"]{
@@ -94,7 +94,8 @@ input[type="checkbox"]{
 
 textarea {
   resize: none;
-  border-color: white;
+  border-color: black;
+  border-width: .5px;
   margin: 3px auto;
   width: 350px;
   height: 27px;
@@ -103,4 +104,5 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
   height: 27px;
   background-color: transparent;
+  font-weight: bold;
 }

@@ -1,7 +1,18 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background: url(http://clipart-library.com/img/1152325.jpg) no-repeat center center fixed; 
+    }
+  
+body::after {
+  background: url(http://clipart-library.com/img/1152325.jpg) no-repeat center fixed;
+  content: "";
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;   
     }
 
   .container {
@@ -32,20 +43,16 @@ body {
   }
 
   ul#productlist {
-    list-style: none;
-    margin: 0;
     padding: 0;
+    list-style: none;
     border: 2px solid #000000;
     background-color: transparent;
   }
 
   ul#productlist li {
-    padding: 5px;
     background-color: transparent;
-  }
-
-  ul#productlist li:hover {
-    background-color: #e6e6e6;
+    padding: 5px;
+    margin: 3px;
   }
 
   ul#productlist .product.bought textarea {
@@ -74,35 +81,33 @@ body {
   }
 
 input#quantity {
-  padding: 1px;
-  margin: 3px auto;
   border-color: black;
   border-width: 0.5px;
   width: 40px;
-  height: 27px;
+  height: 30px;
   text-align: center;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
   font-weight: bold;
+  margin: 3%;
+
 }
 
 input[type="checkbox"]{
   transform: scale(1.5);
-  margin-right: 3%;
+  margin: 3%;
 }
 
 textarea {
   resize: none;
   border-color: black;
   border-width: .5px;
-  margin: 3px auto;
   width: 350px;
   height: 27px;
   text-align: left;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  height: 27px;
   background-color: transparent;
   font-weight: bold;
 }
